@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表格标签的学习</title>
+</head>
+<body>
+<table border="1" width="600" cellspacing="0" cellpadding="4">
+    <tr>
+        <th>姓名</th>
+        <th>年龄</th>
+        <th>性格</th>
+        <th>称号</th>
+    </tr>
+    <tr>
+        <td>嘉然</td>
+        <td>20</td>
+        <td>evil</td>
+        <td>demon</td>
+    </tr>
+    <tr>
+        <td>向晚</td>
+        <td>20</td>
+        <td>slow</td>
+        <td>father</td>
+    </tr>
+    <tr>
+        <td>贝拉</td>
+        <td>20</td>
+        <td>activity</td>
+        <td>activeGirl</td>
+    </tr>
+</table>
+
+<table cellpadding="1" cellspacing="0" border="1" width="400">
+    <tr align="center">
+        <th>名称</th>
+        <th>单价</th>
+        <th>数量</th>
+        <th>小计</th>
+        <th>操作</th>
+
+    </tr>
+    <tr align="center">
+        <td>苹果</td>
+        <td rowspan="2">5</td>
+        <td>50</td>
+        <td>250</td>
+        <td><img src="image/Delete.png" width=20 height=20></td>
+    </tr>
+    <tr align="center">
+        <td>菠萝</td>
+        <td>20</td>
+        <td>300</td>
+        <td><img src="image/Delete.png" width=20 height=20></td>
+
+    </tr>
+    <tr align="center">
+        <td>西瓜</td>
+        <td>30</td>
+        <td>20</td>
+        <td>600</td>
+        <td><img src="image/Delete.png" width=20 height=20></td>
+    </tr>
+    <tr align="center">
+        <td>总和</td>
+        <td colspan="4">1050</td>
+
+    </tr>
+
+</table>
+</body>
+</html>
+<!--
+17) 表格	table
+	行		tr
+	列		td
+	表头列	th
+
+	table中有如下属性（虽然已经淘汰，但是最好了解一下）
+	- border：表格边框的粗细
+	- width:表格的宽度
+	- cellspacing：单元格间距
+	- cellpadding：单元格填充
+
+	tr中有一个属性： align = " "->center , left , right
+
+	rowspan : 行合并
+	colspan : 列合并
+
+-->

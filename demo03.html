@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>表单标签的学习</title>
+</head>
+<body>
+<form action="demoTest.html" method="post">
+    昵称：<input type="text" name="nikeName" value="请输入你的昵称"/><br/>
+    密码：<input type="password" name="pas"/><br/>
+    性别： <input type="radio" name="gender" value="male">男
+    <input type="radio" name="gender" value="female" checked>女
+    <input type="radio" name="gender" value="both">both<br/>
+    爱好：<input type="checkbox" name="hobby" value=basketball checked>篮球
+    <input type="checkbox" name="hobby" value=football>足球
+    <input type="checkbox" name="hobby" value=gamerBoy>gamerBoy
+    <input type="checkbox" name="hobby" value=earth checked>地球<br/>
+    星座:<select name="start">
+    <option value="1">魔羯座</option>
+    <option value="2">天秤座</option>
+    <option value="3">白羊座</option>
+    <option value="4" selected>处女座</option>
+    <option value="5">金牛座</option>
+    <option value="6">水瓶座</option>
+</select><br/>
+    备注:<textarea name="remark" rows="4" cols="50"></textarea><br/>
+    <input type="submit" value="注 册"/>
+    <input type="reset" value="重 置"/>
+    <input type="button" value="这是一个普通按钮"/>
+
+
+</form>
+</body>
+</html>
